@@ -20,6 +20,9 @@ body {
   height: 250px;
   border-radius: 50%;
 }
+.homepage-profile img:hover {
+  opacity: 0.5;
+}
 
 .homepage-title {
   text-align: center;
