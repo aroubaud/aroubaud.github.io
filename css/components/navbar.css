@@ -1,0 +1,56 @@
+/* Main navbar */
+.my-navbar {
+  background: black;
+  transition: 0.5s background-color ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Left section */
+.navbar-left a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Right section */
+
+/* Dropdown */
+.fa-bars {
+  color: white;
+  font-size: 24px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  min-width: 120px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: black;}
+.dropdown-content a:hover {color: white;}
+
+
+
+
+
