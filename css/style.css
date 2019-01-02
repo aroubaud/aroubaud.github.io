@@ -184,6 +184,11 @@ body {
   display: flex;
 }
 
+.regalo-name a {
+  text-decoration: none;
+  color: black;
+}
+
 .regalo-name img {
   height: 50px;
   margin-right: 15px;
@@ -191,6 +196,11 @@ body {
 
 .regalo-name h1 {
   font-weight: bold;
+}
+
+.regalo-tagline a {
+  text-decoration: none;
+  color: black;
 }
 
 .regalo-tagline p {
